@@ -59,6 +59,12 @@ class Biblioteca():
         for membro_atual in self.membros:
             if membro_atual.nome == nome:
                 print(membro_atual.nome, membro_atual.historico)
-
+    
+    def getCatalogo_disp(self):
+        lista = []
+        for item in self.catalogo_disp:
+            lista.append((item.titulo,item.status))
+        return lista
+    
 
             

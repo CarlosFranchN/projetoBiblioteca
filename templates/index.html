@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Meio Dia</title>
+
+</head>
+<body>
+    <h1>Biblioteca Meio Dia</h1>
+    <ul>
+        {% for item in minha_lista%}
+            <li>{{ item[0]}} {{item[1]}}</li>
+        {%endfor%}
+    </ul>
+    <!-- <a href=""></a> -->
+    <a href="/add_form">Adicionar Livro</a>
+</body>
+</html>
